@@ -4,5 +4,5 @@ const config = {
     ATLAS: process.env.DB_USERNAME + ':' + process.env.DB_PASSWORD
 
 }
-console.log(config)
+
 module.exports = config
