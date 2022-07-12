@@ -16,6 +16,10 @@ body {
     width: 30%;
 }
 
+.circulo {
+    width:30% ;
+}
+
 .cuerpo {
     flex-grow: 1;
 }

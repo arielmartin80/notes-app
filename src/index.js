@@ -30,7 +30,7 @@ app.set('view engine', '.hbs');
 app.use(express.urlencoded({ extended: false }));
 app.use(methodOverride('_method'));
 app.use(session({
-    secret: 'mysecretapp',
+    secret: process.env.SECRET,
     resave: true,
     saveUninitialized: true
 }));
